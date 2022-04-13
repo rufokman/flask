@@ -18,6 +18,7 @@ def main():
 
     # If a form is submitted
     if request.method == "POST":
+        print(request)
         #form = QuizForm(request.form)
 
         # Unpickle classifier
@@ -37,10 +38,12 @@ def main():
         # y = form.y.data
         # z = form.z.data
         # Put inputs to dataframe
-        X = pd.DataFrame([[carat, depth, table,x,y,z]], columns=["carat", "depth", 'table', 'x', 'y', 'z'])
+        print([carat,depth,table,x,y,z])
+        X = pd.DataFrame([[carat,depth,table,x,y,z]], columns=["carat", "depth", 'table', 'x', 'y', 'z'])
 
         # Get prediction
         prediction = clf.predict(X)[0]
+        return str(prediction)
     else:
         prediction = ""
 

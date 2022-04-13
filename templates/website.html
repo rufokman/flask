@@ -6,54 +6,62 @@
 
     <body>
     <div id="contact_form">
-        <form name="form", method="POST", style="text-align: center;">
+        <form name="form", method="POST", style="text-align: center;" id="todo-form">
             <br>
-            carat: <select type="number" name="carat">
+            carat: <select type="number" name="carat" id = "carat">
             <option value="3">3</option>
             <option value="4">4</option>
             </select>
 
             <br><br>
-            depth: <input type="number" name="depth" required/>
+            depth: <input type="number" name="depth" id="depth" required/>
             <br><br>
-            table: <input type="number" name="table" required/>
+            table: <input type="number" name="table"  id="table" required/>
             <br><br>
-            x: <input type="number" name="x" required/>
+            x: <input type="number" name="x" id="x" required/>
             <br><br>
-            y: <input type="number" name="y" required/>
+            y: <input type="number" name="y" id="y" required/>
             <br><br>
-            z: <input type="number" name="z" required/>
+            z: <input type="number" name="z" id="z" required/>
             <br><br>
-            <button value="Submit">Run</button>
+            <button type="Submit">Run</button>
         </form>
     </div>
-
+    <div name='result' id="result">
+        {{ output }}
+    </div>
+<!--    <p id="result" style="text-align: center;">{{ output }}</p>-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
             integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
             crossorigin="anonymous">
 
     </script>
     <script type="text/javascript">
-        $(document).on('submit','#todo-form',function(e)
-                   {
-          console.log('hello');
-          e.preventDefault();
-          $.ajax({
-            type:'POST',
-            url:'/',
-            data:{
-              todo:$("#todo").val()
-            },
-            success:function()
-            {
-              alert('saved');
-            }
-          })
-        });
+    $(document).on('submit','#todo-form',function(e)
+               {
+      console.log('hello');
+      e.preventDefault();
+      $.ajax({
+        type:'POST',
+        url:'/',
+        data:{
+          carat:$("#carat").val(),
+            depth: $("#depth").val(),
+            table:$("#table").val(),
+            x:$("#x").val(),
+            y:$("#y").val(),
+            z:$("#z").val()
+        },
+        success:function(response)
+        {
+          $("#result").text(response);
+        }
+      })
+    });
     </script>
 
 
 
-        <p style="text-align: center;">{{ output }}</p>
+
     </body>
 </html>
