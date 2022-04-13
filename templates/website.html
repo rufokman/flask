@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ML</title>
+    </head>
+
+    <body>
+    <div id="contact_form">
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            carat: <select type="number" name="carat">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+
+            <br><br>
+            depth: <input type="number" name="depth" required/>
+            <br><br>
+            table: <input type="number" name="table" required/>
+            <br><br>
+            x: <input type="number" name="x" required/>
+            <br><br>
+            y: <input type="number" name="y" required/>
+            <br><br>
+            z: <input type="number" name="z" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+
+    </script>
+    <script type="text/javascript">
+        $(document).on('submit','#todo-form',function(e)
+                   {
+          console.log('hello');
+          e.preventDefault();
+          $.ajax({
+            type:'POST',
+            url:'/',
+            data:{
+              todo:$("#todo").val()
+            },
+            success:function()
+            {
+              alert('saved');
+            }
+          })
+        });
+    </script>
+
+
+
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
