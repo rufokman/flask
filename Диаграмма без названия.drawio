@@ -1,99 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T23:39:16.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="OkHgpvtaDaiUkzBAc5md" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T04:42:40.956Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="auynaHCBjN-39s0DhWN_" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1460" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1858" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="DaggjCpK3ieTY_p5pUOa-1" value="Для каждого уведомления&lt;br&gt;i=1...n&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="-200" width="230" height="50" as="geometry" />
+          <mxGeometry x="210" y="-1030.2" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-2" target="DaggjCpK3ieTY_p5pUOa-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-2" value="Конец цикла" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1010" y="50" width="120" height="30" as="geometry" />
+          <mxGeometry x="1050" y="-780.2" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-1" target="DaggjCpK3ieTY_p5pUOa-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="110" as="sourcePoint" />
-            <mxPoint x="510" y="110" as="targetPoint" />
+            <mxPoint x="470" y="-720.2" as="sourcePoint" />
+            <mxPoint x="550" y="-720.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-4" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Назначен исполнитель&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="197.5" y="240" width="175" height="85" as="geometry" />
+          <mxGeometry x="237.5" y="-590.2" width="175" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-6" value="Получить значение notification:@type (Тип уведомлений) и сохранить как &lt;b&gt;type&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="225" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="265" y="-690.2" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-1" target="DaggjCpK3ieTY_p5pUOa-88">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="475" y="130" as="sourcePoint" />
-            <mxPoint x="299" y="-60" as="targetPoint" />
+            <mxPoint x="515" y="-700.2" as="sourcePoint" />
+            <mxPoint x="339" y="-890.2" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="290" y="-150" />
+              <mxPoint x="330" y="-980.2" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-6" target="DaggjCpK3ieTY_p5pUOa-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="279.51" y="240" as="sourcePoint" />
-            <mxPoint x="285" y="250" as="targetPoint" />
+            <mxPoint x="319.51" y="-590.2" as="sourcePoint" />
+            <mxPoint x="325" y="-580.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-13" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Доклад подготовлен&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="240" width="175" height="85" as="geometry" />
+          <mxGeometry x="470" y="-590.2" width="175" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-4" target="DaggjCpK3ieTY_p5pUOa-22">
           <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="285" y="339.99999999999994" as="sourcePoint" />
-            <mxPoint x="285" y="440" as="targetPoint" />
+            <mxPoint x="325" y="-490.20000000000005" as="sourcePoint" />
+            <mxPoint x="325" y="-390.20000000000005" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-16" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-4" target="DaggjCpK3ieTY_p5pUOa-13">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="379.9999999999998" y="310" as="sourcePoint" />
-            <mxPoint x="379.9999999999998" y="370" as="targetPoint" />
+            <mxPoint x="419.9999999999998" y="-520.2" as="sourcePoint" />
+            <mxPoint x="419.9999999999998" y="-460.20000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-17" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-13" target="DaggjCpK3ieTY_p5pUOa-18">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="630" y="282.33" as="sourcePoint" />
-            <mxPoint x="660" y="282" as="targetPoint" />
+            <mxPoint x="670" y="-547.8700000000001" as="sourcePoint" />
+            <mxPoint x="700" y="-548.2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-18" target="DaggjCpK3ieTY_p5pUOa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-18" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Доклад направлен&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="670" y="240" width="175" height="85" as="geometry" />
+          <mxGeometry x="710" y="-590.2" width="175" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-19" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-18" target="DaggjCpK3ieTY_p5pUOa-1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="860" y="282.21" as="sourcePoint" />
-            <mxPoint x="960" y="1110" as="targetPoint" />
+            <mxPoint x="900" y="-547.99" as="sourcePoint" />
+            <mxPoint x="1000" y="279.79999999999995" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="865" y="283" />
-              <mxPoint x="865" y="-280" />
-              <mxPoint x="120" y="-280" />
-              <mxPoint x="120" y="-175" />
+              <mxPoint x="905" y="-547.2" />
+              <mxPoint x="905" y="-1110.2" />
+              <mxPoint x="160" y="-1110.2" />
+              <mxPoint x="160" y="-1005.2" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-20" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-13" target="DaggjCpK3ieTY_p5pUOa-23">
           <mxGeometry x="-0.1429" y="13" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="517.05" y="335" as="sourcePoint" />
-            <mxPoint x="517.05" y="450" as="targetPoint" />
+            <mxPoint x="557.05" y="-495.20000000000005" as="sourcePoint" />
+            <mxPoint x="557.05" y="-380.20000000000005" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-18" target="DaggjCpK3ieTY_p5pUOa-24">
           <mxGeometry x="-0.1429" y="13" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="757.05" y="345" as="sourcePoint" />
-            <mxPoint x="757.05" y="460" as="targetPoint" />
+            <mxPoint x="797.05" y="-485.20000000000005" as="sourcePoint" />
+            <mxPoint x="797.05" y="-370.20000000000005" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -101,162 +104,162 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-22" value="Получить значение атрибута notification:executorAssigned:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_executor_assigned&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="207.5" y="360" width="155" height="60" as="geometry" />
+          <mxGeometry x="247.5" y="-470.20000000000005" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-23" target="DaggjCpK3ieTY_p5pUOa-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-23" value="Получить значение атрибута notification:reportPrepared:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_report_prepared&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="443.75" y="360" width="147.5" height="60" as="geometry" />
+          <mxGeometry x="483.75" y="-470.20000000000005" width="147.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-24" target="DaggjCpK3ieTY_p5pUOa-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-24" value="Получить значение атрибута notification:reportSend:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_report_sent&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="686.25" y="360" width="142.5" height="60" as="geometry" />
+          <mxGeometry x="726.25" y="-470.20000000000005" width="142.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-26" target="DaggjCpK3ieTY_p5pUOa-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-26" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Получить значение атрибута notification:executorAssigned:&lt;br&gt;foundation:organization и сохранить как &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;doc_organization&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="205" y="460" width="160" height="60" as="geometry" />
+          <mxGeometry x="245" y="-370.20000000000005" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-28" value="Получить значение notification:@uid (Идентификатор документа, относительно которого было создано настоящее уведомление) и сохранить как &lt;b&gt;uid&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="50" width="170" height="60" as="geometry" />
+          <mxGeometry x="240" y="-780.2" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-28" target="DaggjCpK3ieTY_p5pUOa-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="284.8700000000001" y="100.00000000000023" as="sourcePoint" />
-            <mxPoint x="284.8700000000001" y="130.00000000000023" as="targetPoint" />
+            <mxPoint x="324.8700000000001" y="-730.1999999999998" as="sourcePoint" />
+            <mxPoint x="324.8700000000001" y="-700.1999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-34" target="DaggjCpK3ieTY_p5pUOa-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-34" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;foundation:num:number и сохранить как&amp;nbsp;&lt;b&gt;doc_number&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="208.75" y="557" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="248.75" y="-273.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-36" target="DaggjCpK3ieTY_p5pUOa-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-36" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;foundation:num:date и сохранить как&amp;nbsp;&lt;b&gt;doc_date&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="208.75" y="650" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="248.75" y="-180.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-38" target="DaggjCpK3ieTY_p5pUOa-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-38" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Получить значение атрибута notification:reportPrepared:&lt;br&gt;foundation:organization и сохранить как &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;doc_organization&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="437.5" y="460" width="160" height="60" as="geometry" />
+          <mxGeometry x="477.5" y="-370.20000000000005" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-40" target="DaggjCpK3ieTY_p5pUOa-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-40" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;foundation:num:number и сохранить как&amp;nbsp;&lt;b&gt;doc_number&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="441.25" y="557" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="481.25" y="-273.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-42" target="DaggjCpK3ieTY_p5pUOa-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-42" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;foundation:num:date и сохранить как&amp;nbsp;&lt;b&gt;doc_date&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="441.25" y="650" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="481.25" y="-180.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-45" target="DaggjCpK3ieTY_p5pUOa-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-45" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Получить значение атрибута notification:reportSend:&lt;br&gt;foundation:organization и сохранить как &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;doc_organization&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="677.5" y="460" width="160" height="60" as="geometry" />
+          <mxGeometry x="717.5" y="-370.20000000000005" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-47" target="DaggjCpK3ieTY_p5pUOa-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="757.5" y="650" as="targetPoint" />
+            <mxPoint x="797.5" y="-180.20000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-47" value="Получить значение атрибута notification:reportSend:&lt;br&gt;foundation:num:number и сохранить как&amp;nbsp;&lt;b&gt;doc_number&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="681.25" y="557" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="721.25" y="-273.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-49" target="DaggjCpK3ieTY_p5pUOa-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-49" value="Получить значение атрибута notification:reportSend:&lt;br&gt;foundation:num:date и сохранить как&amp;nbsp;&lt;b&gt;doc_date&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="681.25" y="650" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="721.25" y="-180.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-50" target="DaggjCpK3ieTY_p5pUOa-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-50" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;executor:person и сохранить как &lt;b&gt;fio_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="208.75" y="740" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="248.75" y="-90.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-52" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-52" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;executor:organization и сохранить как &lt;b&gt;organization_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="208.75" y="830" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="248.75" y="-0.20000000000004547" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-55" target="DaggjCpK3ieTY_p5pUOa-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-55" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;signatory:person и сохранить как&amp;nbsp;&lt;b&gt;fio_signatory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="441.25" y="740" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="481.25" y="-90.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-58" target="DaggjCpK3ieTY_p5pUOa-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-58" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;signatory:organization и сохранить как&amp;nbsp;&lt;b&gt;organization_signatory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="441.25" y="830" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="481.25" y="-0.20000000000004547" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-60" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-60" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;signatory:signed и сохранить как&amp;nbsp;&lt;b&gt;time_signatory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="441.25" y="920" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="481.25" y="89.79999999999995" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-62" target="DaggjCpK3ieTY_p5pUOa-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-62" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:person и сохранить как&amp;nbsp;&lt;b&gt;fio_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="681.25" y="740" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="721.25" y="-90.20000000000005" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-69" target="DaggjCpK3ieTY_p5pUOa-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-69" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:organizaton и сохранить как &lt;b&gt;organization_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="681.25" y="830" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="721.25" y="-0.20000000000004547" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-71" target="DaggjCpK3ieTY_p5pUOa-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-71" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:num:number и сохранить как &lt;b&gt;num_doc_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="681.25" y="920" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="721.25" y="89.79999999999995" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-73" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-73" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:num:date и сохранить как &lt;b&gt;date_doc_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="681.25" y="1010" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="721.25" y="179.79999999999995" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-78" value="Выходной датасет в виде таблицы" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1010" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="1050" y="-670.2" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-81" target="DaggjCpK3ieTY_p5pUOa-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="354" y="1330" />
-              <mxPoint x="40" y="1330" />
-              <mxPoint x="40" y="282" />
+              <mxPoint x="394" y="499.79999999999995" />
+              <mxPoint x="80" y="499.79999999999995" />
+              <mxPoint x="80" y="-548.2" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-81" value="Сформировать строку:&lt;br&gt;{&lt;br&gt;&quot;uid&quot;:uid,&lt;br&gt;&quot;type&quot;:type,&lt;br&gt;&quot;time_executor_assigned&quot;:time_executor_assigned,&lt;br&gt;&quot;doc_organization&quot;: doc_organization,&lt;br&gt;&quot;doc_number&quot;:doc_number,&lt;br&gt;&quot;doc_date&quot;:doc_date,&lt;br&gt;&quot;fio_executor&quot;:fio_executor,&lt;br&gt;&quot;organization_executor&quot;:organization_executor,&lt;br&gt;...&lt;br&gt;&quot;date_doc_report&quot;:date_doc_report&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;И добавить строку с выходному датасету" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="247.5" y="1080" width="312.5" height="200" as="geometry" />
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-81" value="Сформировать строку:&lt;br&gt;{&lt;br&gt;&quot;uid&quot;:uid,&lt;br&gt;&quot;type&quot;:type,&lt;br&gt;&quot;time_executor_assigned&quot;:time_executor_assigned,&lt;br&gt;&quot;doc_organization&quot;: doc_organization,&lt;br&gt;&quot;doc_number&quot;:doc_number,&lt;br&gt;&quot;doc_date&quot;:doc_date,&lt;br&gt;&quot;fio_executor&quot;:fio_executor,&lt;br&gt;&quot;organization_executor&quot;:organization_executor,&lt;br&gt;...&lt;br&gt;&quot;date_doc_report&quot;:date_doc_report&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;И добавить строку к выходному датасету" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287.5" y="249.79999999999995" width="312.5" height="200" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-87" value="Создать строку из всех переменных (выделены жирным)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="1130" width="220" height="130" as="geometry" />
+          <mxGeometry x="610" y="299.79999999999995" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-88" target="DaggjCpK3ieTY_p5pUOa-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-88" value="Объявить путой датафрейм, который станет выходным" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="-90" width="170" height="60" as="geometry" />
+          <mxGeometry x="240" y="-920.2" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
