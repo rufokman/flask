@@ -1,86 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T05:46:21.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0xHeTpL8e04g1gcM4B4x" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T06:29:03.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UBv-fcMn-1Clu-NSKHBu" version="20.5.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1849" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3407" dy="2702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="DaggjCpK3ieTY_p5pUOa-1" value="Для каждого уведомления&lt;br&gt;i=1...n&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="-1030.2" width="230" height="50" as="geometry" />
+          <mxGeometry x="550.25" y="-1140" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-2" target="DaggjCpK3ieTY_p5pUOa-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-2" value="Конец цикла" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1160" y="179.8" width="120" height="30" as="geometry" />
+          <mxGeometry x="1371" y="75.00000000000001" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-1" target="DaggjCpK3ieTY_p5pUOa-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="-720.2" as="sourcePoint" />
-            <mxPoint x="550" y="-720.2" as="targetPoint" />
+            <mxPoint x="810.25" y="-830" as="sourcePoint" />
+            <mxPoint x="890.25" y="-830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-4" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Назначен исполнитель&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="-590" width="172.5" height="84.8" as="geometry" />
+          <mxGeometry x="580.25" y="-699.8" width="172.5" height="84.8" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-6" value="Получить значение notification:@type (Тип уведомлений) и сохранить как &lt;b&gt;type&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="265" y="-690.2" width="120" height="60" as="geometry" />
+          <mxGeometry x="605.25" y="-800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-1" target="DaggjCpK3ieTY_p5pUOa-88">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515" y="-700.2" as="sourcePoint" />
-            <mxPoint x="339" y="-890.2" as="targetPoint" />
+            <mxPoint x="855.25" y="-810" as="sourcePoint" />
+            <mxPoint x="679.25" y="-1000" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="330" y="-980.2" />
+              <mxPoint x="670.25" y="-1090" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-6" target="DaggjCpK3ieTY_p5pUOa-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="319.51" y="-590.2" as="sourcePoint" />
-            <mxPoint x="325" y="-580.2" as="targetPoint" />
+            <mxPoint x="659.76" y="-700" as="sourcePoint" />
+            <mxPoint x="665.25" y="-690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-13" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Доклад подготовлен&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="-590.2" width="175" height="85" as="geometry" />
+          <mxGeometry x="810.25" y="-700" width="175" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-4" target="DaggjCpK3ieTY_p5pUOa-22">
           <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="325" y="-490.20000000000005" as="sourcePoint" />
-            <mxPoint x="325" y="-390.20000000000005" as="targetPoint" />
+            <mxPoint x="665.25" y="-600" as="sourcePoint" />
+            <mxPoint x="665.25" y="-500.00000000000006" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-16" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-4" target="DaggjCpK3ieTY_p5pUOa-13">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="419.9999999999998" y="-520.2" as="sourcePoint" />
-            <mxPoint x="419.9999999999998" y="-460.20000000000005" as="targetPoint" />
+            <mxPoint x="760.2499999999998" y="-630" as="sourcePoint" />
+            <mxPoint x="760.2499999999998" y="-570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-17" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-13" target="DaggjCpK3ieTY_p5pUOa-18">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="670" y="-547.8700000000001" as="sourcePoint" />
-            <mxPoint x="700" y="-548.2" as="targetPoint" />
+            <mxPoint x="1010.25" y="-657.6700000000001" as="sourcePoint" />
+            <mxPoint x="1040.25" y="-658" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-18" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Доклад направлен&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="710" y="-590.2" width="175" height="85" as="geometry" />
+          <mxGeometry x="1050.25" y="-700" width="175" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-20" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-13" target="DaggjCpK3ieTY_p5pUOa-23">
           <mxGeometry x="-0.1429" y="13" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="557.05" y="-495.20000000000005" as="sourcePoint" />
-            <mxPoint x="557.05" y="-380.20000000000005" as="targetPoint" />
+            <mxPoint x="897.3" y="-605" as="sourcePoint" />
+            <mxPoint x="897.3" y="-490.00000000000006" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-21" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-18" target="DaggjCpK3ieTY_p5pUOa-24">
           <mxGeometry x="-0.1429" y="13" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="797.05" y="-485.20000000000005" as="sourcePoint" />
-            <mxPoint x="797.05" y="-370.20000000000005" as="targetPoint" />
+            <mxPoint x="1137.3" y="-595" as="sourcePoint" />
+            <mxPoint x="1137.3" y="-480.00000000000006" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -88,168 +88,168 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-22" value="Получить значение атрибута notification:executorAssigned:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_executor_assigned&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="247.5" y="-470.20000000000005" width="155" height="60" as="geometry" />
+          <mxGeometry x="587.75" y="-580" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-23" target="DaggjCpK3ieTY_p5pUOa-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-23" value="Получить значение атрибута notification:reportPrepared:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_report_prepared&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="483.75" y="-470.20000000000005" width="147.5" height="60" as="geometry" />
+          <mxGeometry x="824" y="-580" width="147.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-24" target="DaggjCpK3ieTY_p5pUOa-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-24" value="Получить значение атрибута notification:reportSend:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_report_sent&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="726.25" y="-470.20000000000005" width="142.5" height="60" as="geometry" />
+          <mxGeometry x="1066.5" y="-580" width="142.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-26" target="DaggjCpK3ieTY_p5pUOa-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-26" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Получить значение атрибута notification:executorAssigned:&lt;br&gt;foundation:organization и сохранить как &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;doc_organization&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="245" y="-370.20000000000005" width="160" height="60" as="geometry" />
+          <mxGeometry x="585.25" y="-480.00000000000006" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-28" value="Получить значение notification:@uid (Идентификатор документа, относительно которого было создано настоящее уведомление) и сохранить как &lt;b&gt;uid&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="-780.2" width="170" height="60" as="geometry" />
+          <mxGeometry x="580.25" y="-890" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-28" target="DaggjCpK3ieTY_p5pUOa-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="324.8700000000001" y="-730.1999999999998" as="sourcePoint" />
-            <mxPoint x="324.8700000000001" y="-700.1999999999998" as="targetPoint" />
+            <mxPoint x="665.1200000000001" y="-839.9999999999998" as="sourcePoint" />
+            <mxPoint x="665.1200000000001" y="-809.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-34" target="DaggjCpK3ieTY_p5pUOa-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-34" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;foundation:num:number и сохранить как&amp;nbsp;&lt;b&gt;doc_number&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="248.75" y="-273.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="589" y="-383.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-36" target="DaggjCpK3ieTY_p5pUOa-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-36" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;foundation:num:date и сохранить как&amp;nbsp;&lt;b&gt;doc_date&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="248.75" y="-180.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="589" y="-290.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-38" target="DaggjCpK3ieTY_p5pUOa-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-38" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Получить значение атрибута notification:reportPrepared:&lt;br&gt;foundation:organization и сохранить как &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;doc_organization&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="477.5" y="-370.20000000000005" width="160" height="60" as="geometry" />
+          <mxGeometry x="817.75" y="-480.00000000000006" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-40" target="DaggjCpK3ieTY_p5pUOa-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-40" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;foundation:num:number и сохранить как&amp;nbsp;&lt;b&gt;doc_number&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="481.25" y="-273.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="821.5" y="-383.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-42" target="DaggjCpK3ieTY_p5pUOa-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-42" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;foundation:num:date и сохранить как&amp;nbsp;&lt;b&gt;doc_date&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="481.25" y="-180.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="821.5" y="-290.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-45" target="DaggjCpK3ieTY_p5pUOa-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-45" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Получить значение атрибута notification:reportSend:&lt;br&gt;foundation:organization и сохранить как &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 8px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;b&gt;doc_organization&lt;/b&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="717.5" y="-370.20000000000005" width="160" height="60" as="geometry" />
+          <mxGeometry x="1057.75" y="-480.00000000000006" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-47" target="DaggjCpK3ieTY_p5pUOa-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="797.5" y="-180.20000000000005" as="targetPoint" />
+            <mxPoint x="1137.75" y="-290.00000000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-47" value="Получить значение атрибута notification:reportSend:&lt;br&gt;foundation:num:number и сохранить как&amp;nbsp;&lt;b&gt;doc_number&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="721.25" y="-273.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="1061.5" y="-383.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-49" target="DaggjCpK3ieTY_p5pUOa-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-49" value="Получить значение атрибута notification:reportSend:&lt;br&gt;foundation:num:date и сохранить как&amp;nbsp;&lt;b&gt;doc_date&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="721.25" y="-180.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="1061.5" y="-290.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-50" target="DaggjCpK3ieTY_p5pUOa-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-50" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;executor:person и сохранить как &lt;b&gt;fio_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="248.75" y="-90.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="589" y="-200.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-52" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-52" value="Получить значение атрибута notification:executorAssigned:&lt;br&gt;executor:organization и сохранить как &lt;b&gt;organization_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="248.75" y="-0.20000000000004547" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="589" y="-110.00000000000004" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-55" target="DaggjCpK3ieTY_p5pUOa-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-55" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;signatory:person и сохранить как&amp;nbsp;&lt;b&gt;fio_signatory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="481.25" y="-90.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="821.5" y="-200.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-58" target="DaggjCpK3ieTY_p5pUOa-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-58" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;signatory:organization и сохранить как&amp;nbsp;&lt;b&gt;organization_signatory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="481.25" y="-0.20000000000004547" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="821.5" y="-110.00000000000004" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-60" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-60" value="Получить значение атрибута notification:reportPrepared:&lt;br&gt;signatory:signed и сохранить как&amp;nbsp;&lt;b&gt;time_signatory&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="481.25" y="89.79999999999995" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="821.5" y="-20.000000000000043" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-62" target="DaggjCpK3ieTY_p5pUOa-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-62" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:person и сохранить как&amp;nbsp;&lt;b&gt;fio_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="721.25" y="-90.20000000000005" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="1061.5" y="-200.00000000000006" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-69" target="DaggjCpK3ieTY_p5pUOa-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-69" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:organizaton и сохранить как &lt;b&gt;organization_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="721.25" y="-0.20000000000004547" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="1061.5" y="-110.00000000000004" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-71" target="DaggjCpK3ieTY_p5pUOa-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-71" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:num:number и сохранить как &lt;b&gt;num_doc_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="721.25" y="89.79999999999995" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="1061.5" y="-20.000000000000043" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-73" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-73" value="Получить значение атрибута notification:reportSend:&lt;br&gt;report:num:date и сохранить как &lt;b&gt;date_doc_report&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="721.25" y="179.79999999999995" width="152.5" height="55" as="geometry" />
+          <mxGeometry x="1061.5" y="69.99999999999996" width="152.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-78" target="DaggjCpK3ieTY_p5pUOa-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-78" value="Выходной датасет в виде таблицы&lt;br&gt;&lt;b&gt;notificantion_df&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1160" y="289.8" width="120" height="60" as="geometry" />
+          <mxGeometry x="1371" y="185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-81" target="DaggjCpK3ieTY_p5pUOa-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="394" y="500" />
-              <mxPoint x="-320" y="500" />
-              <mxPoint x="-320" y="-1005" />
+              <mxPoint x="734.25" y="390.2" />
+              <mxPoint x="20.25" y="390.2" />
+              <mxPoint x="20.25" y="-1114.8" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-81" value="Сформировать строку:&lt;br&gt;{&lt;br&gt;&quot;uid&quot;:uid,&lt;br&gt;&quot;type&quot;:type,&lt;br&gt;&quot;time_executor_assigned&quot;:time_executor_assigned,&lt;br&gt;&quot;doc_organization&quot;: doc_organization,&lt;br&gt;&quot;doc_number&quot;:doc_number,&lt;br&gt;&quot;doc_date&quot;:doc_date,&lt;br&gt;&quot;fio_executor&quot;:fio_executor,&lt;br&gt;&quot;organization_executor&quot;:organization_executor,&lt;br&gt;...&lt;br&gt;&quot;date_doc_report&quot;:date_doc_report&lt;br&gt;}&lt;br&gt;&lt;br&gt;&lt;br&gt;И добавить строку к выходному датасету" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="287.5" y="249.79999999999995" width="312.5" height="200" as="geometry" />
+          <mxGeometry x="627.75" y="139.99999999999994" width="312.5" height="200" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-87" value="Создать строку из всех переменных (выделены жирным)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="299.79999999999995" width="220" height="130" as="geometry" />
+          <mxGeometry x="950.25" y="189.99999999999994" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-88" target="DaggjCpK3ieTY_p5pUOa-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-88" value="Объявить путой датафрейм, который станет выходным" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="-920.2" width="170" height="60" as="geometry" />
+          <mxGeometry x="580.25" y="-1030" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-92" value="Получить значение notification:@uid (Идентификатор документа, относительно которого было создано настоящее уведомление) и сохранить как &lt;b&gt;uid&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="70" width="170" height="60" as="geometry" />
+          <mxGeometry x="560.25" y="-39.8" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-93" target="DaggjCpK3ieTY_p5pUOa-107">
           <mxGeometry relative="1" as="geometry" />
@@ -286,7 +286,7 @@
         <mxCell id="DaggjCpK3ieTY_p5pUOa-129" value="Для каждого уведомления&lt;br&gt;i=1...df_executor.shape[0]" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="91" y="1050" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-133" value="&lt;b&gt;notification_df&lt;br&gt;[uid==df_executor[i][uid] &amp;amp;&lt;br&gt;type == &quot;Доклад направлен&quot;]&lt;br&gt;количество строк не равно 0?&lt;br&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-133" value="notification_df&lt;br&gt;[uid==df_executor[i][uid] &amp;amp;&lt;br&gt;type == &quot;Доклад направлен&quot;]&lt;br&gt;количество строк не равно 0?" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="99.25" y="1140" width="213.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-134" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-133" target="DaggjCpK3ieTY_p5pUOa-145">
@@ -345,13 +345,13 @@
         <mxCell id="DaggjCpK3ieTY_p5pUOa-145" value="continue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="146" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-146" value="Смержить данные по doc_date и doc_organization, чтобы получить следующие столбцы:&lt;br&gt;&lt;b&gt;&quot;Плановый срок исполнения&quot;, &quot;Фактический срок исполнения&quot;, &quot;Дата создания поручения&quot;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1030" y="429.8" width="380" height="60" as="geometry" />
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-146" value="Смержить данные по doc_date и doc_organization, чтобы получить следующие столбцы:&lt;br&gt;&lt;b&gt;&quot;Плановый срок исполнения&quot;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="325" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-153" value="&lt;b&gt;Фича количество активных поручений&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-153" value="&lt;b&gt;Количество активных поручений&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="555" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-155" value="&lt;b&gt;Количество просроченных поручений и среднее время просрочки&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-155" value="&lt;b&gt;Среднее время просрочки&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="555" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-156" value="output: &lt;b&gt;active_orders&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -372,13 +372,13 @@
         <mxCell id="DaggjCpK3ieTY_p5pUOa-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-163" target="DaggjCpK3ieTY_p5pUOa-165">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-163" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_exexutor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-163" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="745" y="830" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-165" target="DaggjCpK3ieTY_p5pUOa-167">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-165" value="объявить переменные:&amp;nbsp; &lt;br&gt;1. overdue_orders=0&lt;br&gt;2. plan_fact_days = []" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-165" value="объявить переменные:&amp;nbsp; &lt;br&gt;1. plan_fact_days = []" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="745" y="940" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-167" target="DaggjCpK3ieTY_p5pUOa-188">
@@ -392,17 +392,15 @@
         <mxCell id="DaggjCpK3ieTY_p5pUOa-167" value="Для каждого уведомления&lt;br&gt;i=1...df_executor.shape[0]" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="755" y="1050" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-169" value="&lt;b&gt;df_executor[i][Плановый срок исполнения]&amp;lt;df_executor[i][Фактический срок исполнения]&lt;br&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-169" value="df_executor[i][Плановый срок исполнения]&amp;lt;df_executor[i][time_report_sent]" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="736.62" y="1360" width="266.75" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-170" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-169" target="DaggjCpK3ieTY_p5pUOa-177">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-170" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-169" target="DaggjCpK3ieTY_p5pUOa-178">
           <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="878.24" y="1430" as="sourcePoint" />
-            <mxPoint x="869.99" y="1610" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="869.99" y="1590" />
-            </Array>
+            <mxPoint x="869.9949999999999" y="1579.9999999999995" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-171" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-169" target="DaggjCpK3ieTY_p5pUOa-182">
@@ -415,16 +413,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-177" target="DaggjCpK3ieTY_p5pUOa-178">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-177" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;overdue_orders+=1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="809.99" y="1579.9999999999995" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-178" target="DaggjCpK3ieTY_p5pUOa-180">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-178" value="&lt;b style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;diff=df_executor[i][Плановый срок исполнения].days-df_executor[i][Фактический срок исполнения].days&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-178" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;diff=df_executor[i][Плановый срок исполнения].days-df_executor[i][&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;time_report_sent&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;].days&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="744.99" y="1670" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-180" target="DaggjCpK3ieTY_p5pUOa-167">
@@ -456,8 +448,8 @@
         <mxCell id="DaggjCpK3ieTY_p5pUOa-188" value="Конец цикла" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1320" y="1060" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-190" value="output:&lt;br&gt;plan_fact_days.mean()&lt;br&gt;overdue_orders" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1300" y="1160" width="160" height="50" as="geometry" />
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-190" value="output:&lt;br&gt;plan_fact_days.mean()" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="1150" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-194" target="DaggjCpK3ieTY_p5pUOa-194">
           <mxGeometry relative="1" as="geometry">
@@ -470,7 +462,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-194" value="&lt;b&gt;df_executor[Фактический срок исполнения]&lt;br&gt;непустое значение?&lt;br&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-194" value="df_executor[time_report_sent]&lt;br&gt;непустое значение?" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="736.62" y="1150" width="266.75" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-198" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-194" target="DaggjCpK3ieTY_p5pUOa-169">
@@ -480,94 +472,6 @@
             <mxPoint x="869.905" y="1349.9999999999995" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-206" value="&lt;b&gt;Среднее время выполнения поручений&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1860" y="570" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-209" target="DaggjCpK3ieTY_p5pUOa-211">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-209" value="input:&amp;nbsp;&lt;b&gt;uid,&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b&gt;fio_executor,&amp;nbsp;&lt;br&gt;organization_executor&amp;nbsp;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1882" y="640" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-211" target="DaggjCpK3ieTY_p5pUOa-213">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-211" value="Отфильтровать &lt;b&gt;notification_df &lt;/b&gt;по следующим параметрам с оператором &lt;b&gt;И&lt;/b&gt;:&lt;br&gt;1. fio_executor == fio_executor from input&lt;br&gt;2. organization_executor == organization_executor from input" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1817" y="720" width="250" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-213" target="DaggjCpK3ieTY_p5pUOa-215">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-213" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_exexutor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1817" y="830" width="250" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-215" target="DaggjCpK3ieTY_p5pUOa-216">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-215" value="объявить переменные:&amp;nbsp; &lt;br&gt;1. lead_time=[]" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1817" y="940" width="250" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-216" target="DaggjCpK3ieTY_p5pUOa-228">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1942.0000000000005" y="1140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-216" target="DaggjCpK3ieTY_p5pUOa-235">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-216" value="Для каждого уведомления&lt;br&gt;i=1...df_executor.shape[0]" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1827" y="1050" width="230" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-228" value="df_executor[i][type]==&quot;Доклад направлен&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1835.25" y="1160" width="213.5" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-229" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-228" target="DaggjCpK3ieTY_p5pUOa-231">
-          <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="1948.25" y="1230" as="sourcePoint" />
-            <mxPoint x="1942" y="1350" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-230" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-228" target="DaggjCpK3ieTY_p5pUOa-228">
-          <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="2043.2499999999998" y="1200" as="sourcePoint" />
-            <mxPoint x="2110.75" y="1220" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="2120" y="1220" />
-              <mxPoint x="2120" y="1120" />
-              <mxPoint x="1740" y="1120" />
-              <mxPoint x="1740" y="1220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-233" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-231" target="DaggjCpK3ieTY_p5pUOa-232">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-231" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;lt=(df_executor[uid==df_executor[i][uid]][Фактическое время исполнения]-&lt;br&gt;df_executor[uid==df_executor[i][uid]][&lt;span style=&quot;font-family: Verdana;&quot;&gt;time_executor_assigned]).days&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1770" y="1320" width="342" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-232" target="DaggjCpK3ieTY_p5pUOa-228">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1740" y="1535" />
-              <mxPoint x="1740" y="1220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-232" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;lead_time.append(lt)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1770" y="1510" width="342" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-238" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-235" target="DaggjCpK3ieTY_p5pUOa-237">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-235" value="Конец цикла" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2192" y="1045" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DaggjCpK3ieTY_p5pUOa-237" value="output:&lt;br&gt;lead_time.mean()" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2192" y="1185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-240" value="&lt;b&gt;Время назначения исполнителя&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2660" y="560" width="180" height="30" as="geometry" />
@@ -696,61 +600,287 @@
           <mxGeometry x="2985" y="625" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-313" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Зарегистрирован&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5.63" y="-590" width="175" height="85" as="geometry" />
+          <mxGeometry x="345.88" y="-699.8" width="175" height="85" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-314" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-313" target="DaggjCpK3ieTY_p5pUOa-316">
           <mxGeometry x="-0.1429" y="13" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="92.42000000000007" y="-500.00000000000006" as="sourcePoint" />
-            <mxPoint x="92.42000000000007" y="-465.00000000000006" as="targetPoint" />
+            <mxPoint x="432.6700000000001" y="-609.8000000000001" as="sourcePoint" />
+            <mxPoint x="432.6700000000001" y="-574.8000000000001" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-315" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-313" target="DaggjCpK3ieTY_p5pUOa-4">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="180" y="-547.9200000000001" as="sourcePoint" />
-            <mxPoint x="230" y="-550" as="targetPoint" />
+            <mxPoint x="520.25" y="-657.72" as="sourcePoint" />
+            <mxPoint x="570.25" y="-659.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-316" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="70" y="350" />
+              <mxPoint x="410.25" y="240.2" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-316" value="Получить значение атрибута notification:documentAccepted:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_registration_sent&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="16.25" y="-450" width="153.75" height="60" as="geometry" />
+          <mxGeometry x="356.5" y="-559.8" width="153.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-323" value="&lt;b&gt;type &lt;/b&gt;==&lt;br&gt;&quot;Поставлен на контроль&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-230" y="-590.2" width="172.5" height="84.8" as="geometry" />
+          <mxGeometry x="110.25" y="-700" width="172.5" height="84.8" as="geometry" />
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-324" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-323" target="DaggjCpK3ieTY_p5pUOa-327">
           <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="-145" y="-490.40000000000003" as="sourcePoint" />
-            <mxPoint x="-145" y="-390.40000000000003" as="targetPoint" />
+            <mxPoint x="195.25" y="-600.2" as="sourcePoint" />
+            <mxPoint x="195.25" y="-500.20000000000005" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-325" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-323" target="DaggjCpK3ieTY_p5pUOa-313">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="-50.00000000000023" y="-520.4000000000001" as="sourcePoint" />
-            <mxPoint y="-547.9000000000001" as="targetPoint" />
+            <mxPoint x="290.2499999999998" y="-630.2" as="sourcePoint" />
+            <mxPoint x="340.25" y="-657.7" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-326" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-327" target="DaggjCpK3ieTY_p5pUOa-81">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-145" y="-370.4000000000001" as="targetPoint" />
+            <mxPoint x="195.25" y="-480.2000000000001" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-150" y="350" />
+              <mxPoint x="190.25" y="240.2" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DaggjCpK3ieTY_p5pUOa-327" value="Получить значение атрибута notification:documentSend:time (дата и время события уведомления) и сохранить как&amp;nbsp;&lt;b&gt;time_document_send&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-222.5" y="-470.40000000000003" width="155" height="60" as="geometry" />
+          <mxGeometry x="117.75" y="-580.2" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-339" value="&lt;b&gt;Время подготовки отчета&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1890" y="310" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-340" value="notification_df[i][time_report_prepared] &lt;br&gt;!= None" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1858.25" y="470" width="213.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-341" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-340" target="DaggjCpK3ieTY_p5pUOa-346">
+          <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1966.5" y="540" as="sourcePoint" />
+            <mxPoint x="1965" y="640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-342" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-340">
+          <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2061.5" y="510" as="sourcePoint" />
+            <mxPoint x="2129" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-343" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-344" target="DaggjCpK3ieTY_p5pUOa-351">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2190" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2200" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-344" value="output=None" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2130" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-346" target="DaggjCpK3ieTY_p5pUOa-351">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-346" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;output = (notification_df[i][&lt;span style=&quot;font-family: Verdana;&quot;&gt;time_executor_assigned&lt;/span&gt;] - notification_df[i][&lt;span style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;time_report_prepared&lt;/span&gt;]).hours&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1840" y="635" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-347" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-349" target="DaggjCpK3ieTY_p5pUOa-340">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-348" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-349" target="DaggjCpK3ieTY_p5pUOa-352">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-349" value="Для каждого уведомления&lt;br&gt;i=1...notification_df.shape[0]" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1850" y="380" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-350" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-351" target="DaggjCpK3ieTY_p5pUOa-349">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1750" y="780" />
+              <mxPoint x="1750" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-351" value="notification_df[hours_report_prepared]=output" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1800" y="750" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-352" value="Конец цикла" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2215" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-367" value="&lt;b&gt;Количество дней с последнего просроченного поручения&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1818.25" y="1245" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-368" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-369" target="DaggjCpK3ieTY_p5pUOa-371">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-369" value="input:&amp;nbsp;&lt;b&gt;uid,&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b&gt;fio_executor,&amp;nbsp;&lt;br&gt;organization_executor,&lt;br&gt;&lt;/b&gt;&lt;b&gt;time_executor_assigned&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1853.25" y="1310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-370" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-371" target="DaggjCpK3ieTY_p5pUOa-373">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-371" value="Отфильтровать &lt;b&gt;notification_df &lt;/b&gt;по следующим параметрам с оператором &lt;b&gt;И&lt;/b&gt;:&lt;br&gt;1. fio_executor == fio_executor from input&lt;br&gt;2. organization_executor == organization_executor from input" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1788.25" y="1390" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-372" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-373" target="DaggjCpK3ieTY_p5pUOa-374">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-373" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1788.25" y="1500" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-393" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-374" target="DaggjCpK3ieTY_p5pUOa-390">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-374" value="Отфильтровать df_executor:&lt;br&gt;1. type == &#39;Документ направлен&#39;&lt;br&gt;2. Плановый срок исполнения &amp;lt; time_report_send" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1788.25" y="1610" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-389" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-384" target="DaggjCpK3ieTY_p5pUOa-388">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-384" value="Из полученного df получить самую большую дату &lt;br&gt;(то есть последнюю дату просрочки) и сохранить &lt;b&gt;last&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2058.25" y="1821.25" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-388" value="output = time_executor_assigned.days - last.days" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2058.25" y="1923.75" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-390" value="Полученный датасет пустой?" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1806.5" y="1695" width="213.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-391" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-390" target="DaggjCpK3ieTY_p5pUOa-394">
+          <mxGeometry x="-0.1429" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1916.5" y="1765" as="sourcePoint" />
+            <mxPoint x="1915" y="1865" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-392" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-390" target="DaggjCpK3ieTY_p5pUOa-384">
+          <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2011.4999999999998" y="1735" as="sourcePoint" />
+            <mxPoint x="2079" y="1755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-394" value="output =None" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1770" y="1925" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-395" value="&lt;b&gt;Количество просроченных поручений за последние три дня&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1710" y="-1060" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-396" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-397" target="DaggjCpK3ieTY_p5pUOa-399">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-397" value="input:&amp;nbsp;&lt;b&gt;uid,&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b&gt;fio_executor,&amp;nbsp;&lt;br&gt;organization_executor&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;b&gt;time_executor_assigned&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1740" y="-975" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-398" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-399" target="DaggjCpK3ieTY_p5pUOa-401">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-399" value="Отфильтровать &lt;b&gt;notification_df &lt;/b&gt;по следующим параметрам с оператором &lt;b&gt;И&lt;/b&gt;:&lt;br&gt;1. fio_executor == fio_executor from input&lt;br&gt;2. organization_executor == organization_executor from input" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1675" y="-895" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-400" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-401" target="DaggjCpK3ieTY_p5pUOa-402">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-401" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1675" y="-785" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-404" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-402" target="DaggjCpK3ieTY_p5pUOa-403">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-402" value="Отфильтровать df_executor&lt;br&gt;(time_report_send-time_executor_assigned).days &amp;lt; 4&lt;br&gt;получить количество строк -&amp;gt; &lt;b&gt;allorders3&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1675" y="-675" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-406" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-403" target="DaggjCpK3ieTY_p5pUOa-405">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-403" value="Отфильтровать df_executor:&lt;br&gt;1. type == &#39;Документ направлен&#39;&lt;br&gt;2. (time_report_send-time_executor_assigned).days &amp;lt; 4&lt;br&gt;2. Плановый срок исполнения &amp;lt; time_report_send&lt;br&gt;получить количество строк -&amp;gt; &lt;b&gt;overdueorders3&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1675" y="-560" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-405" value="output:&amp;nbsp;&lt;b&gt;overdueorders3/allorders3&lt;/b&gt;&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1675" y="-425" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-407" value="&lt;b&gt;Количество просроченных поручений за последние 30 дней&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2145" y="-1060" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-408" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-409" target="DaggjCpK3ieTY_p5pUOa-411">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-409" value="input:&amp;nbsp;&lt;b&gt;uid,&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b&gt;fio_executor,&amp;nbsp;&lt;br&gt;organization_executor&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;b&gt;time_executor_assigned&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2175" y="-975" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-410" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-411" target="DaggjCpK3ieTY_p5pUOa-413">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-411" value="Отфильтровать &lt;b&gt;notification_df &lt;/b&gt;по следующим параметрам с оператором &lt;b&gt;И&lt;/b&gt;:&lt;br&gt;1. fio_executor == fio_executor from input&lt;br&gt;2. organization_executor == organization_executor from input" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2110" y="-895" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-412" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-413" target="DaggjCpK3ieTY_p5pUOa-415">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-413" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2110" y="-785" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-414" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-415" target="DaggjCpK3ieTY_p5pUOa-417">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-415" value="Отфильтровать df_executor&lt;br&gt;(time_report_send-time_executor_assigned).days &amp;lt; 31&lt;br&gt;получить количество строк -&amp;gt;&amp;nbsp;&lt;b&gt;allorders30&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2110" y="-675" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-416" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-417" target="DaggjCpK3ieTY_p5pUOa-418">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-417" value="Отфильтровать df_executor:&lt;br&gt;1. type == &#39;Документ направлен&#39;&lt;br&gt;2. (time_report_send-time_executor_assigned).days &amp;lt; 31&lt;br&gt;2. Плановый срок исполнения &amp;lt; time_report_send&lt;br&gt;получить количество строк -&amp;gt;&amp;nbsp;&lt;b&gt;overdueorders30&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2110" y="-560" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-418" value="output:&lt;b&gt;overdueorders30/allorders30&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2110" y="-425" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-420" value="&lt;b&gt;Количество просроченных поручений за последние 70 дней&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2565" y="-1070" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-421" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-422" target="DaggjCpK3ieTY_p5pUOa-424">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-422" value="input:&amp;nbsp;&lt;b&gt;uid,&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;b&gt;fio_executor,&amp;nbsp;&lt;br&gt;organization_executor&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;b&gt;time_executor_assigned&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2595" y="-985" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-423" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-424" target="DaggjCpK3ieTY_p5pUOa-426">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-424" value="Отфильтровать &lt;b&gt;notification_df &lt;/b&gt;по следующим параметрам с оператором &lt;b&gt;И&lt;/b&gt;:&lt;br&gt;1. fio_executor == fio_executor from input&lt;br&gt;2. organization_executor == organization_executor from input" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2530" y="-905" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-425" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-426" target="DaggjCpK3ieTY_p5pUOa-428">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-426" value="Полученный датафрейм по исполнителю записать в переменную &lt;b&gt;df_executor&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2530" y="-795" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-427" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-428" target="DaggjCpK3ieTY_p5pUOa-430">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-428" value="Отфильтровать df_executor&lt;br&gt;(time_report_send-time_executor_assigned).days &amp;lt; 71&lt;br&gt;получить количество строк -&amp;gt;&amp;nbsp;&lt;b&gt;allorders70&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2530" y="-685" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-429" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DaggjCpK3ieTY_p5pUOa-430" target="DaggjCpK3ieTY_p5pUOa-431">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-430" value="Отфильтровать df_executor:&lt;br&gt;1. type == &#39;Документ направлен&#39;&lt;br&gt;2. (time_report_send-time_executor_assigned).days &amp;lt; 71&lt;br&gt;2. Плановый срок исполнения &amp;lt; time_report_send&lt;br&gt;получить количество строк -&amp;gt;&amp;nbsp;&lt;b&gt;overdueorders70&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2530" y="-570" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DaggjCpK3ieTY_p5pUOa-431" value="output:&amp;nbsp;&lt;b&gt;overdueorders70/allorders70&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2530" y="-435" width="250" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
